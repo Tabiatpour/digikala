@@ -1,0 +1,202 @@
+/* start cards-baner1 */
+
+.cards-baner1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px 20px 5px;
+  object-fit: contain;
+}
+.cards-wrapper1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.card1 {
+  width: calc((100% - 10px) / 4.1);
+  height: 230px;
+  /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4); */
+  position: relative;
+}
+
+.card-img-wrapper1 {
+  width: 100%;
+  height: 100%;
+  background-color: #262626;
+  border-radius: 18px;
+}
+
+.card-img-wrapper1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  align-items: center;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  border-radius: 18px;
+}
+
+.card1:hover .card-img-wrapper1 img {
+  opacity: 0.5;
+}
+
+.card-info1 {
+  position: absolute;
+  bottom: 0;
+  padding: 2px;
+  /* text-shadow: 0 0.2px 0.5px rgba(0, 0, 0, 0.4); */
+  opacity: 0;
+  visibility: hidden;
+  transition: all 3000ms;
+}
+
+.card1:hover .card-info1 {
+  bottom: 2px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.card-info1 h2 {
+  font-family: Yekan;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #eee;
+}
+
+.card-info1 h3 {
+  font-family: Yekan;
+  font-size: 14px;
+  font-weight: 500;
+  color: #eee;
+  margin-bottom: 1px;
+}
+
+.card-info1 p {
+  font-family: Yekan;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #eee;
+  width: 80%;
+  margin-bottom: 2px;
+}
+
+.card-info1 button {
+  width: 100px;
+  height: 40px;
+  background-color: #ef4056;
+  border: none;
+  font-family: Yekan;
+  font-size: 12px;
+  /* line-height: 10px; */
+  color: #eee;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
+}
+/* end cards-baner1 */
+
+/* start cards-baner2 */
+
+.cards-baner2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px 20px 5px;
+}
+.cards-wrapper2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.card2 {
+  width: calc((100% - 10px) / 2);
+  height: 260px;
+  border-radius: 12px;
+  position: relative;
+}
+.card2-2 {
+  margin-right: 20px;
+}
+.card-img-wrapper2 {
+  width: 100%;
+  height: 100%;
+  background-color: #262626;
+  border-radius: 18px;
+}
+
+.card-img-wrapper2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  align-items: center;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  border-radius: 18px;
+}
+
+.card2:hover .card-img-wrapper2 img {
+  opacity: 0.5;
+}
+
+.card-info2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 3000ms;
+}
+
+.card2:hover .card-info2 {
+  bottom: 2px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.card-info2 h2 {
+  font-family: Yekan;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #eee;
+}
+
+.card-info2 h3 {
+  font-family: Yekan;
+  font-size: 14px;
+  font-weight: 500;
+  color: #eee;
+  margin-bottom: 1px;
+}
+
+.card-info2 p {
+  font-family: Yekan;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #eee;
+  width: 80%;
+  margin-bottom: 2px;
+}
+
+.card-info2 button {
+  width: 100px;
+  height: 40px;
+  background-color: #ef4056;
+  border: none;
+  font-family: Yekan;
+  font-size: 12px;
+  color: #eee;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
+}

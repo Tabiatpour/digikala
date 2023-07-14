@@ -1,0 +1,89 @@
+div.footer {
+  width: 100%;
+  height: 100px;
+}
+div.footer > div.lineStartFooter {
+  width: 100%;
+  height: 1px;
+  background-color: #dad5d5;
+}
+
+div.footer > div.tell {
+  width: 90%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  vertical-align: middle;
+  font-size: 12px;
+  position: relative;
+  top: 30px;
+  right: 5%;
+}
+
+div.footer > div.tell > div.tellBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  vertical-align: middle;
+}
+div.supportTell {
+  /* width: 100%; */
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  vertical-align: middle;
+}
+span.footerDivider {
+  display: flex;
+  width: 1.5px;
+  height: 20px;
+  background-color: rgb(131, 131, 131);
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+div.footer > div.tell > div.returnUp {
+  width: 20%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+div.footer > div.tell > div.returnUp > a.returnUpBotton {
+  width: 120px;
+  height: 40px;
+  border: 1px solid gray;
+  text-decoration: none;
+  color: black;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 40px;
+}
+
+div.guidLine {
+  width: 85%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+div.guidLine > a.guid {
+  width: 20%;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  position: relative;
+  right: 10%;
+  /* justify-content: center; */
+  /* vertical-align: middle; */
+}
+div.guidLine > a.guid > div {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  position: relative;
+  right: 10%;
+  justify-content: center;
+}

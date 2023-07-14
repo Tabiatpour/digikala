@@ -1,0 +1,12 @@
+@import "setting/setting.css";
+@import "setting/header.css";
+@import "./setting/story.css";
+@import "./setting/slider.css";
+@import "./setting/offer.css";
+
+@import "./setting/header1.css";
+@import "./setting/mostSell.css";
+@import "./setting/cards-baner.css";
+@import "./setting/smallBaner.css";
+
+@import "./setting/Footer.css";
